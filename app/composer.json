@@ -1,0 +1,18 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "doctrine/doctrine-bundle": "^2.14",
+    "doctrine/orm": "^3.3",
+    "symfony/framework-bundle": "~7.2.0",
+    "symfony/runtime": "~7.2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/runtime": true
+    }
+  }
+}
